@@ -1,0 +1,31 @@
+.chooseUsernameContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    
+
+}
+
+.provider {
+    border: none;
+    width: 300px;
+    padding: 10px 0;
+    color: white;
+    background-color: blue;
+    border-radius: 3px;
+    text-align: center;
+  }
+  .containerChoos{
+    background-image: url('https://img.freepik.com/foto-gratis/mesa-oficina_93675-130809.jpg?');
+    background-image: linear-gradient(rgba(235, 183, 202, 0.63),rgba(235, 142, 176, 0.9)),url('https://img.freepik.com/foto-gratis/mesa-oficina_93675-130809.jpg?');
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
