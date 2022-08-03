@@ -1,0 +1,12 @@
+.profileContainer{
+    width: 100%;
+    margin:100px auto;
+    text-align: center;
+    /* background-color: rgb(103, 72, 187); */
+
+}
+.profilePicture img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
