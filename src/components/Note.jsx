@@ -71,7 +71,9 @@ export default function Note({docId, title, description, onDelete, onUpdate}){
                 </div>
                 <div class="note-description"> 
                     {editDescription? (
-                    <><input 
+                    <><textarea 
+                    rows="10"
+                    cols= "30"
                     ref={descriptionRef} 
                     value={currentDescription} 
                     onChange={handleChangeDescription}

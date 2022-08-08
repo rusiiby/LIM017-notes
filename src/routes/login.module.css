@@ -15,16 +15,19 @@
 
 .provider {
   border: none;
-  width: 200px;
-  padding: 18px 0;
+  width: 250px;
+  padding: 25px 0;
   color: white;
-  background-color:#f8b0ca;
+  background-color:#db8ba8;
   border-radius: 5px;
   text-align: center;
   display: flex;
   justify-content: center;
   cursor: pointer;
   transition:ease-in 0.2s ;
+  font-size: 20px;
+  font-weight: bold;
+
 }
 .loginPopup {
   margin: 0 auto;

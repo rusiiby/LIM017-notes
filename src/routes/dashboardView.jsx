@@ -49,7 +49,19 @@ export default function DashboardView(){
             onUserLoggedIn={handleUserLoggedIn}
             onUserNotLoggedIn={handleUserNotloggedIn}
             onUserNotRegistered={handleUserNotRegistered}
-            >loading</AuthProvider>
+            >
+            <div className='spinner-loading'>
+              <div className="text">
+                <div class="lds-heart">
+                  <div></div>
+                </div>
+                <div>Loading ...</div>
+              </div>
+            </div>
+            
+            
+            
+            </AuthProvider>
                 );
       }
 

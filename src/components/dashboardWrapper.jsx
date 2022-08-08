@@ -17,6 +17,7 @@ export default function DashboardWrapper({children}){
                     <Link to="/dashboard">Dashboard</Link>
                     <Link to="/dashboard/profile">Profile</Link>
                     <Link to="/signout">Signout</Link>  
+                    <Link to="/u/username">Public profile</Link>
                 </div>        
             </nav>
         </div>

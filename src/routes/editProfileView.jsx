@@ -66,7 +66,17 @@ function handleChangeFile (e){
         onUserLoggedIn={handleUserLoggedIn}
         onUserNotLoggedIn={handleUserNotLoggedIn} 
         onUserNotRegistered={handleUserNotRegistered}
-        ></AuthProvider>
+        >
+          <div className='spinner-loading'>
+              <div className="text">
+                <div class="lds-heart">
+                  <div></div>
+                </div>
+                <div>Loading ...</div>
+              </div>
+            </div>
+          
+        </AuthProvider>
  }
     return (
             <DashboardWrapper>
@@ -85,4 +95,5 @@ function handleChangeFile (e){
               </div>
             </DashboardWrapper>
     );
+    
 }
